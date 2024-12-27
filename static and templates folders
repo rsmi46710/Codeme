@@ -1,0 +1,30 @@
+#Static and Templates Folders
+#Steps to Set Them Up:
+#Create the folders:
+templates/
+static/
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Code Me</title>
+    <link rel="stylesheet" href="{{ url_for('static', filename='styles.css') }}">
+</head>
+<body>
+    <h1>Welcome to Code Me!</h1>
+    <p>Start your coding journey here.</p>
+</body>
+</html>
+#Css
+body {
+    font-family: Arial, sans-serif;
+    background-color: #f9f9f9;
+    color: #333;
+    text-align: center;
+    padding: 20px;
+}
+h1 {
+    color: #0066cc;
+}
