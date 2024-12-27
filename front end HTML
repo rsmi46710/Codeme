@@ -1,0 +1,25 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Code Me - Learn Python</title>
+    <link rel="stylesheet" href="{{ url_for('static', filename='css/styles.css') }}">
+</head>
+<body>
+    <header>
+        <h1>Welcome to Code Me!</h1>
+        <p>Your interactive coding journey begins here.</p>
+    </header>
+    <section class="lesson-preview">
+        <h2>Start Learning Python</h2>
+        <button onclick="location.href='lesson1.html'">Start Lesson 1</button>
+    </section>
+
+    <footer>
+        <p>&copy; 2024 Code Me - Learn and Grow</p>
+    </footer>
+
+    <script src="{{ url_for('static', filename='js/scripts.js') }}"></script>
+</body>
+</html>
