@@ -1,0 +1,22 @@
+Mermaid.js Diagram (Text-Based)
+
+```mermaid
+graph TD
+    A[User] --> B[Frontend (Browser)]
+    B --> C[Backend (Flask Server)]
+    C --> D[Database]
+    C --> E[Static File Storage]
+    D --> F[Data Retrieval and Updates]
+    E --> G[Serve Static Assets]
+
+
+### **Explanation of the Components**
+1. **User**: Represents the person accessing your "Code Me" platform.
+2. **Frontend (Browser)**: The interface where users interact with your site, typically HTML, CSS, and JavaScript.
+3. **Backend (Flask Server)**: The Python-based backend that processes requests and manages logic.
+4. **Database**: Stores user data, progress, and other critical information.
+5. **Static File Storage**: Holds static assets like images, stylesheets, and JavaScript files.
+6. **Data Flow**:
+   - Users send requests via the browser.
+   - Backend processes these requests, fetching or updating data from the database.
+   - Static files are served directly to the frontend for performance.
